@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - juliendevi
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - juliendevi/Morphos_color
+  - juliendevi/R_functions
+  - juliendevi/RNA-seq_human_cellsRNA-seq_human_cells
