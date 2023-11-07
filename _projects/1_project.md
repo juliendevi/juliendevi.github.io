@@ -1,81 +1,19 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Phylogenomics of Culicomorpha
+description: Origins of hematophagy in dipterans
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: current
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+While blood feeding behaviour is often associated to mosquitoes, only 10% of mosquitoes species are supposed to be potential vectors of disease for humans (Yee et al., 2022). Because research focus on species of human health interest origins of such a behaviour remain poorly understood.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+True flies (Diptera) show multiple emmergence of blood feeding behaviour (Wiegmann et al., 2011) with at least 12 distinct origins. These various origin show a convergence of the blood feeding behaviour, but are the mechanisms involved in this behaviour convergent too?
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Here we use phylogenomic analysis to generate a new phylogeny of Culicomorpha and Psychodomorpha groups to investigate the evolution of genes in parallel in Culicidae (mosquitoes) and Psychodidae (sandflies). Using comparative genomic analysis we investigate the evolution of gene families to detect gene families diversification (i.e., duplications) and loses under selective pressure due to hematophagy behaviour. The goal of this project is to detect genes that can be involved in (1) the emergence of blood feeding, and (2) in the specialisation to a specific host (such as human).
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<h1>References</h1>
+Wiegmann, B.M., Trautwein, M.D., Winkler, I.S., Barr, N.B., Kim, J.-W., Lambkin, C., et al. (2011) Episodic radiations in the fly tree of life. Proceedings of the National Academy of Sciences, 108, 5690–5695.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Yee, D.A., Dean Bermond, C., Reyes-Torres, L.J., Fijman, N.S., Scavo, N.A., Nelsen, J., et al. (2022) Robust network stability of mosquitoes and human pathogens of medical importance. Parasites & Vectors, 15, 216.
