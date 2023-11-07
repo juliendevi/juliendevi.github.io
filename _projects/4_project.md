@@ -16,7 +16,7 @@ Butterflies are colourful and recognition of specific wing colour pattern is lik
     </div>
 </div>
 <div class="caption">
-    Phylogeny of Morpho butterflies genus (from Chazot et al., 2016) split in 2 group: a clade of canopy species (blue line) and a group of understory species (green line). Dimorphism between male (internal pictures) and females (external picture) is variable but often imply differences in blue coloration.
+    Phylogeny of <i>Morpho</i> butterflies genus (from Chazot et al., 2016) split in 2 group: a clade of canopy species (blue line) and a group of understory species (green line). Dimorphism between male (internal pictures) and females (external picture) is variable but often imply differences in blue coloration.
 </div>
 
 <h3>References</h3>

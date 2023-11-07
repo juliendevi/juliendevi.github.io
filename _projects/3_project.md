@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Swarming behaviour in Aedes aegypti
+title: Swarming behaviour in <i>Aedes aegypti</i>
 description: RNA-seq whole head swarming vs. non-swarming males, clock implications in the control of mating
 img: assets/img/projects/projet3.jpg
 importance: 3
@@ -11,7 +11,7 @@ Mosquitoes are mating in swarms, agglomerate of males releasing pheromones and a
 
 The internal clock is involved in the control of mating behaviour in lots of species (fish, mammals, moquitoes, etc.), but is the clock still essential in the forming of swarms when this behaviour depend on the presence of host and thus happen randomly through the day?
 
-Here we focus on the Yellow fever mosquito Aedes aegypti, a species breeding after stimulation from an host reducing the time between mating and blood meal essential to accumulate enought energy for egg laying. We sequenced the transcriptome of whole male head and compare the transcripts differentially express between swarming and non-swarming males.
+Here we focus on the Yellow fever mosquito <i>Aedes aegypti</i>, a species breeding after stimulation from an host reducing the time between mating and blood meal essential to accumulate enought energy for egg laying. We sequenced the transcriptome of whole male head and compare the transcripts differentially express between swarming and non-swarming males.
 
 
 
@@ -24,7 +24,7 @@ Here we focus on the Yellow fever mosquito Aedes aegypti, a species breeding aft
     </div>
 </div>
 <div class="caption">
-    These pictures represent a male of the species Aedes aegypti (left) and an heat-map of the differential express transcripts detected between swarming and non-swarming males (right).
+    These pictures represent a male of the species <i>Aedes aegypti</i> (left) and an heat-map of the differential express transcripts detected between swarming and non-swarming males (right).
 </div>
 
 <h1>References</h1>
