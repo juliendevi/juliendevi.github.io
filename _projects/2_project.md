@@ -2,7 +2,7 @@
 layout: page
 title: Sensory gene families evolution in mosquitoes
 description: Single-cell RNA-seq and ATAC-seq on mousquito's brain
-img: assets/img/3.jpg
+img: assets/img/projects/project2.jpeg
 importance: 2
 category: current
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Phylogenomics of Culicomorpha
 description: Origins of hematophagy in dipterans
-img: assets/img/12.jpg
+img: assets/img/projects/projet1.jpeg
 importance: 1
 category: current
 ---

@@ -1,81 +1,32 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Swarming behaviour in Aedes aegypti
+description: RNA-seq whole head swarming vs. non-swarming males, clock implications in the control of mating
+img: assets/img/projects/projet3.jpg
 importance: 3
-category: work
+category: Current
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Mosquitoes are mating in swarms, agglomerate of males releasing pheromones and attracting females with a specific wing beat frequency. Depending on the species, these swarms can be induce by time or host stimulus. However, even in time control species, some males stay at rest while the others breed. A recent study found a differential expression of essential clock genes (timeless and period) between swarming and resting males despite the same time of collection (Wang et al., 2021).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The internal clock is involved in the control of mating behaviour in lots of species (fish, mammals, moquitoes, etc.), but is the clock still essential in the forming of swarms when this behaviour depend on the presence of host and thus happen randomly through the day?
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Here we focus on the Yellow fever mosquito Aedes aegypti, a species breeding after stimulation from an host reducing the time between mating and blood meal essential to accumulate enought energy for egg laying. We sequenced the transcriptome of whole male head and compare the transcripts differentially express between swarming and non-swarming males.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/swarming/photo_aedes_male.jpg" title="Male <i>Aedes aegypti</i>" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/swarming/heatmap_swarm.png" title="heat-map" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    These pictures represent a male of the species Aedes aegypti (left) and an heat-map of the differential express transcripts detected between swarming and non-swarming males (right).
 </div>
 
+<h1>References</h1>
+Wang, G., Vega-Rodríguez, J., Diabate, A., Liu, J., Cui, C., Nignan, C., et al. (2021) Clock genes and environmental cues coordinate Anopheles pheromone synthesis, swarming, and mating, 6.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
