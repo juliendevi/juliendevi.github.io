@@ -36,6 +36,9 @@
                 <td class="institution">{{content.institution}}</td>
               </tr>
               {% endif %}
+              {% if content.image %}
+                <a href={{content.url}}><img src="/{{ content.image }}" style="float:right; width:150px"></a>
+              {% endif %}
               {% if content.department %}
               <tr>
                 <td style="vertical-align: top; text-align: center;" class="department"><i class="far fa-dot-circle icondepartment"></i></td>

@@ -1,80 +1,39 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Phylogeny Perisphaerus genus (Blaberidae, Perisphaerinae)
+description: 
+img: assets/img/projects/perisphaerus.png
 importance: 3
-category: fun
+category: Old
+collaborators: Fréderic Legendre (MNHN)
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Perisphaerus genus (Blaberidae, Perisphaerinae) include cockroaches living in Africa and Indonesia. Multiple radiation events have been describe in the Indonesian region, starting from birds by Wallace (1863) who assumed the physical geographic history as a diversification driver isolating various population on different islands (peripatric speciation).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+However, the relationships of Perisphaerus with other genus remain unclear, preventing the study of the Wallacean hypothesis. While lots of species remain undescribed, Perisphaerus delimitation stay obscur with Pseudoglomeris, Corydidarum and Trichoblatta (all synonymous for the same species), using the unique capacity of Perisphaerus to roll up in a full ball as a discrimination factor (Li et al., 2018).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
+We thus realised a molecular phylogeny of Perisphaerus, Pseudoglomeris, Corydidarum and Trichoblatta species living in the Indonesian area (from China to Australia) in order to clarify the taxonomy and systematic of this group.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/perisphaerus/perisphaerus.png" title="<i>Perisphaerus</i>" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/perisphaerus/wallacea.png" title="Wallacea" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    On the left (from Li et al., 2018): (1) a Pseudoglomeris couple breeding, and a female forming a ball (2 & 3). On the right a capture of the Indo-australian area showing emerged lands arround 18 thousand years ago with the Wallacea limited by the Wallace and Lydekker's lines (from Harrison et al., 2006).
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<h3>References</h3>
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Harrison, T., Krigbaum, J. & Manser, J. (2006) Primate Biogeography and Ecology on the Sunda Shelf Islands: A Paleontological and Zooarchaeological Perspective. In Primate Biogeography. Springer US, pp. 331–372.
+
+Li, X.-R., Wang, L.-L. & Wang, Z.-Q. (2018) Rediscovered and new perisphaerine cockroaches from SW China with a review of subfamilial diagnosis (Blattodea: Blaberidae). Zootaxa, 4410, 251–290.
+
+Wallace, A.R. (1863) On the Physical Geography of the Malay Archipelago. The Journal of the Royal Geographical Society of London, 33, 217–234.
+
+
+

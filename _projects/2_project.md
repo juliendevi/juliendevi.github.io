@@ -2,9 +2,9 @@
 layout: page
 title: Sensory gene families evolution in mosquitoes
 description: Single-cell RNA-seq and ATAC-seq on mousquito's brain
-img: assets/img/projects/project2.jpeg
+img: assets/img/projects/projet2.jpeg
 importance: 2
-category: current
+category: Current
 ---
 
 Mosquitoes possess incredible sensory abilities resulting from sensory gene families divercification (i.e., duplications). These extraordinary performances are used in host seeking behaviour to assess the necessary blood meal. Howerver, males only feed on flowers while females will have a blood meal giving them enough energy to lay their eggs.

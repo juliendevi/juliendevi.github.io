@@ -1,80 +1,21 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Vision in mosquitoes
+description: Molecular investigation of sexual dimorphism in visual pigments using Anopheles gambiae
+img: /assets/img/projects/projet6.jpg
 importance: 4
-category: fun
+category: Current
 ---
+While male mosquitoes are nectar foragers, females exhibit a biting behaviour with a blood meal giving them the necessary energy for oviposition. Due to the transmission of various diseases, host seeking in mosquitoes is intensively studied and a study revealed the importance of vision in the red part of the light spectra (Alonso San Alberto et al., 2022). Furthermore, we know that photosensitive proteins (i.e., opsins) wildly diversified at the origin of mosquitoes and a high number of copy were kept under positive selection (Feuda et al., 2021).
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Here we thus try to investigate differencies in opsin gene expression between male (non biting) and female (biting) of the Malaria mosquito (Anopheles gambiae).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+To do so we are combining bulk transcriptomics in the eye of mosquitoes to detect wide differencies, and explore the pattern of expression of genes of interest using Hybridization chain reaction (HCR).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project started as Harini Suresh Master’s project.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<h3>References</h3>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Alonso San Alberto, D., Rusch, C., Zhan, Y., Straw, A.D., Montell, C. & Riffell, J.A. (2022) The olfactory gating of visual preferences to human skin and visible spectra in mosquitoes. Nature Communications, 13, 555.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Feuda, R., Goulty, M., Zadra, N., Gasparetti, T., Rosato, E., Pisani, D., et al. (2021) Phylogenomics of Opsin Genes in Diptera Reveals Lineage-Specific Events and Contrasting Evolutionary Dynamics in Anopheles and Drosophila. Genome Biology and Evolution, 13, evab170.
