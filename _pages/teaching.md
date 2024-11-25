@@ -1,12 +1,24 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching/supervision
+description: List of my teaching implications and student supervision.
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<h2>Student supervision</h2>
 
-Organize your courses by years, topics, or universities, however you like!
+<ul>
+	<li>Harini Suresh (MSc, 2023) - Molecular investigation of vision and sexual dimorphism in the Malaria mosquito <i>Anopheles gambiae</i></li>
+	<li>Ruman Khalid (MSc, 2024) - Mapping of the photopigments <i>opsin</i> in the adult eyes of the Malaria mosquito <i>Anopheles gambiae</i></li>
+</ul>
+
+<h2>Teaching</h2>
+
+<ul>
+	<li>Demontrator BS1050: From Individuals to Populations - An Introduction to Genetics (UoL)</li>
+	<li>Introduction to R for PhD students (UoL)</li>
+	<li>First year statistics [adapted for PhD students with Eamonn Mallon](UoL)</li>
+	<li>Demonstrator BS2009: Genomes (UoL)</li>
+</ul> 
