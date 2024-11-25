@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - juliendevi
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - juliendevi/R_functions
+  - juliendevi/Swarming_vs_non-swarming_Aedes_aegypti
+  - juliendevi/RNA-seq_human_cells
+  - juliendevi/Morphos_color
