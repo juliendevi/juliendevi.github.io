@@ -11,7 +11,7 @@
   contents:
     - title: PhD Genetics
       institution: University of Leicester, Leicester, UK
-      year: 2021-
+      year: 2021-2025
       url: https://le.ac.uk/
       image: assets/img/Logos/UoL_logo.png
     - title: MSc Systematic, Evolution and Systematic
@@ -30,9 +30,12 @@
 - title: Positions
   type: time_table
   contents:
+    - title: Post-doctoral associate
+      institution: Virginia Tech, Blacksburg, Virginia, USA
+      year: 2025-
     - title: Post Graduate Researcher representative
       institution: University of Leicester, Leicester, UK
-      year: 2022 - 
+      year: 2022 - 2024
       description: PGR rep for the Departement of Genetics and Genomes Biology, including Safety Team, PGR and Academic Staff contributions. 
 
 
