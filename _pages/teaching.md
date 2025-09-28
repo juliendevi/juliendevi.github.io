@@ -10,8 +10,9 @@ nav_order: 4
 <h2>Student supervision</h2>
 
 <ul>
-	<li>Harini Suresh (MSc, 2023) - Molecular investigation of vision and sexual dimorphism in the Malaria mosquito <i>Anopheles gambiae</i></li>
-	<li>Ruman Khalid (MSc, 2024) - Mapping of the photopigments <i>opsin</i> in the adult eyes of the Malaria mosquito <i>Anopheles gambiae</i></li>
+	<li>Harini Suresh (MSc, 2023) - Molecular investigation of vision and sexual dimorphism in the Malaria mosquito <i>Anopheles gambiae</i> (University of Leicester, UK)</li>
+	<li>Ruman Khalid (MSc, 2024) - Mapping of the photopigments <i>opsin</i> in the adult eyes of the Malaria mosquito <i>Anopheles gambiae</i> (University of Leicester, UK)</li>
+	<li>Meiers Dixon (PhD, rotation 4 weeks 2025) - Genome assemblye <i>Culex territans</i> (co-supervised with Dr Chloé Lahondère, Virginia Tech, USA)</li>
 </ul>
 
 <h2>Teaching</h2>

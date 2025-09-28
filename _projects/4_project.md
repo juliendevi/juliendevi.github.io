@@ -5,10 +5,11 @@ description:
 img: /assets/img/projects/projet4.png
 importance: 3
 category: Old
+related_publications: true
 collaborators: Violaine Llaurens & Vincent Debat (PIs, Muséum National d'Histoire Naturelle & CNRS, France)
 ---
 
-Butterflies are colourful and recognition of specific wing colour pattern is likely use as a (1) species recognition and (2) mating cue. The evolution of wing colour pattern likely trigger the evolution of colour vision. In this project we are trying to investigate how duplication events in the eye photopigments (opsins) could tune the ability for butterflies to discriminate location and sex of closely related mimic species. 
+Butterflies are colourful and recognition of specific wing colour pattern is likely use as a (1) species recognition and (2) mating cue. The evolution of wing colour pattern likely trigger the evolution of colour vision. In this project we are trying to investigate how duplication events in the eye photopigments (opsins) could tune the ability for butterflies to discriminate location and sex of closely related mimic species {% cite Ledamoisel2025.06.13.659549 %}. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
