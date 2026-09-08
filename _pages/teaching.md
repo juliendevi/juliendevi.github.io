@@ -10,6 +10,7 @@ nav_order: 4
 <h2>Student supervision</h2>
 
 <ul>
+	<li>Cara Dixon (PhD, external supervisor, 2025-Present) - Epigenetic effects of pesticides on the painted lady (<i>Vanessa cardui</i>) (part of <a href="https://mooholl.github.io/">Hollie Marshall's lab</a>, University of Leicester, UK)</li>
 	<li>Darling de Andrade Lourenco (PhD, rotation 4 weeks 2025) - Comparative transcriptomics in three <i>Culex</i> species (co-supervised with Dr Chloé Lahondère, Virginia Tech, USA)</li>
 	<li>Meiers Dixon (PhD, rotation 4 weeks 2025) - Genome assembly <i>Culex territans</i> (co-supervised with Dr Chloé Lahondère, Virginia Tech, USA)</li>
 	<li>Ruman Khalid (MSc, 2024) - Mapping of the photopigments <i>opsin</i> in the adult eyes of the Malaria mosquito <i>Anopheles gambiae</i> (University of Leicester, UK)</li>
@@ -19,6 +20,7 @@ nav_order: 4
 <h2>Teaching</h2>
 
 <ul>
+	<li>Course co-intructor BCHM4354: Biochemical Communication (VT)</li>
 	<li>Demontrator BS1050: From Individuals to Populations - An Introduction to Genetics (UoL)</li>
 	<li>Introduction to R for PhD students (UoL)</li>
 	<li>First year statistics [adapted for PhD students with Eamonn Mallon](UoL)</li>

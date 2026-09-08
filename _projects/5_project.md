@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Daily rhythms in mosquitoes
-description: How are mosquito daily behaviours synchranised?
+description: How are mosquito daily behaviours synchronised?
 img: /assets/img/projects/project5.png
 importance: 3
 category: Current

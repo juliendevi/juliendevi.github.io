@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral associate, <a href="https://www.vinaugerlab.com/">Vinauger's Lab</a>, <a href="https://www.vt.edu/">Virginia Tech</a>.
+subtitle: Postdoctoral researcher, <a href="https://www.paras.uzh.ch/de/research/entomology.html">Niels Verhulst's group</a>, <a href="https://www.paras.uzh.ch/en.html">Institute of Parasitology</a>, Uiversity of Zürich.
 
 profile:
   align: right
   image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Biochemistry Department</p>
-    <p>Virginia Tech</p>
-    <p>Blacksburg, Virginia, USA</p>
+    <p>Institute of Parasitology</p>
+    <p>University of Zürich</p>
+    <p>Zürich, Switzerland</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

@@ -30,9 +30,15 @@
 - title: Positions
   type: time_table
   contents:
+    - title: Post-doctoral researcher
+      institution: University of Zürich, Zürich, Switzerland
+      year: 2026-
+      url: https://www.paras.uzh.ch/en.html
+      image: assets/img/Logos/uzh-logo-black.png
+      description: Vector biology research in <a href="https://www.paras.uzh.ch/de/research/entomology.html">Niels Verhulst's group</a> (Intitute of Parasitology).
     - title: Post-doctoral associate
       institution: Virginia Tech, Blacksburg, Virginia, USA
-      year: 2025-
+      year: 2025-2026
       url: https://www.biochem.vt.edu/
       image: assets/img/Logos/Biochem-horizontal.png
       description: Investigating daily variations in sensory system of <i>Aedes aegypti</i> using single-cell RNA-sequencing in <a href="https://www.vinaugerlab.com/">Clément Vinauger's Lab</a>.
